@@ -25,7 +25,7 @@ The project uses PyTorch to build, train, and evaluate the neural network classi
 The dataset is structured in CSV format:
 - `labelled_train.csv`: Used for training the model.
 - `labelled_test.csv`: Used for evaluating generalization.
-- `labelled_validation.csv`: Used for tuning and early stopping.
+- `labelled_validation.csv`: Used for evaluating generalization.
 
 Preprocessing steps include:
 - Feature standardization with `StandardScaler`.
